@@ -1,0 +1,236 @@
+body{
+    height: auto;
+    width: auto;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#topbar {     
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 30px;
+    
+}
+
+#tryit {
+    background-color: hsl(100, 100%, 100%);
+    border-color: hsl(322, 100%, 66%);
+    border-radius: 300px;
+    color: hsl(322, 100%, 66%);
+    width: 130px;
+}
+
+#tryit:hover {
+    color: hsl(100, 100%, 100%);
+    background-color:hsl(322, 100%, 66%);
+    cursor: pointer;
+  }
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px; 
+}
+
+#header1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.textblock {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+#startit {
+    background-color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+    border-radius: 300px;
+    color: hsl(100, 100%, 100%);
+    width: 380px;
+    height: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#startit:hover {
+    color: hsl(322, 100%, 66%);
+    background-color:hsl(100, 100%, 100%);
+    cursor: pointer;
+  }
+
+#screens {
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+#bragoverlord {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    
+}
+
+.flashy {
+    font-size: 7em;
+    font-weight: 700;
+}
+
+.faded {
+    font-weight: 400;
+    margin-top: -20px;
+    font-size: 1.5em;
+    text-align: center;
+    color: hsl(0, 0%, 60%)
+}
+
+.bragicon {
+    margin-left: 10px;
+}
+
+.sectioninside {
+    background-color: hsl(207, 100%, 98%);
+    
+}
+
+.section1border, .section2border {
+    max-width: 100%;
+    margin: auto;
+}
+
+.waveyimageseries {
+    width: 40%;
+    margin: 20px;
+}
+
+.pointlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pointlist-reverse {
+    flex-direction: row-reverse; 
+}
+
+.pointlisthead {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.sectiontext {
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    padding: 60px;
+}
+
+#section2 {
+    background-color: hsl(100, 100%, 100%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#close {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px; 
+}
+
+#footeroverlord {
+    background-color: hsl(192, 100%, 9%);
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    position: absolute;
+    width: 100%;
+    height: 60px;
+}
+
+.attribution {
+    color: hsl(100, 100%, 100%);
+}
+
+#footeroverlord {
+    color: hsl(100, 100%, 100%);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h3 {
+ text-transform: uppercase;
+}
+
+#subscribe {
+    background-color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+    width: 120px;
+    font-weight: bold;
+    color: hsl(100, 100%, 100%);
+    margin-left: 10px;
+    
+}
+
+#footerleft, #footerright {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#subpls {
+    overflow: hidden;
+    padding-right: .5em;
+    white-space: nowrap;
+}
+
+#subscribe {
+    float: right;
+}
+
+#footerright {
+    padding-right: 30px;
+}
+
+#hahaha {
+    text-transform: initial;
+}
+
+#logofooter {
+    margin-bottom: 20px;
+}
+
+#news {
+    margin-top: 20px;
+}
+
+#social {
+    margin-top: 40px;
+}
+
+#soc:hover {
+    cursor: pointer;
+}
+
